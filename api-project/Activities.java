@@ -22,12 +22,12 @@ public class Activities {
 		requestSpec = new RequestSpecBuilder()
 				// Set content type
 				.setContentType(ContentType.JSON)
-				.addHeader("Authorization", "token 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")
+				.addHeader("Authorization", "token XXX")
 				// Set base URL
 				.setBaseUri("https://api.github.com")
 				// Build request specification
 				.build();
-		sshKey = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDVk06MC9OzbyWhS7YTALC08eI+YpzZH0gu9kZLF81Xz08W2AbIk3RwHMlDyURk+Pnc0WWa30OGYFjumETGiaYO78RB8GXz7dzFgZ+PMkrVLw3y69/SbeClLKTrK8ic7IjsSAUiSDjsidEoUNWTL7pFrpL6EL+OyCFX/HzxlyLeRe/K8WT33ST1kEtvpC1+tO1VNil60IdceBNR535AagIYRgo+fBTe3b9iP1s3UIg0QQ4NmfJkmmZlJggluqc+Y/J5x6eltABROEoZF6KkvVhBN0ZWQEDTvC8mpCLhz1vyPi4vFzyryzVMyAGU1U5NmtW5OsdiR96fa5pNDX/0OWKP";
+		sshKey = "ssh-rsa XXX";
 	}
 	@Test(priority = 1)
 	// Test case using a DataProvider
